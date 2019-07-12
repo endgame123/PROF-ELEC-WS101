@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: rgb(130, 146, 214);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: rgb(193, 194, 196);
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #e5e8e9;
+  height: 300px; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: rgb(135, 133, 241);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Game hub</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, inventore beatae! Voluptates blanditiis, odio modi repudiandae eius laboriosam assumenda optio suscipit voluptatem quisquam odit vel. Dignissimos eaque recusandae placeat laboriosam!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint saepe asperiores neque. Consectetur labore quis adipisci magni odio eligendi. Voluptatibus architecto quisquam corporis consequatur expedita, nam eum dolorum cumque cum?</p>
+
+<header>
+  <h2>No Game No Life</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Error</a></li>
+      <li><a href="#">Unknown</a></li>
+      <li><a href="#">Secret</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Comment Section</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati atque porro libero voluptates sunt. Amet dolores quasi similique cumque necessitatibus perspiciatis minus doloremque tempore expedita! Explicabo illo fugit enim dignissimos?.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus totam vero itaque similique consectetur quod cumque modi consequatur placeat nihil, distinctio recusandae odio earum magnam nostrum repellendus ex sequi..</p>
+  </article>
+</section>
+
+<footer>
+  <p>Copyright 2019-2020</p>
+</footer>
+
+</body>
+</html>
+
+    
