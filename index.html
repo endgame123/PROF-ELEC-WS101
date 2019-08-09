@@ -2,39 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="Assets/css/css.css">
-    <link rel="icon" type="icon" href="">
-
-
+    <title>Home Page in Patrick</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
-    
-
-    <header>
-        <h2>Welcome To My Website I'm Patrick Claveria</h2>
-      </header>
-      
-      <section>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="blog.html">Blog</a></li>
+    <div class="row">
+        <div class="left" style="background-color:#bbb;">
+          <h2>Menu</h2>
+          <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+          <ul id="myMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+          
           </ul>
-        </nav>
-        
-        <article>
-          <h1>Qoutes</h1>
-          <p>Don't be stupid for the person who bullyed time will come the bullyed person become a Legend.</p>
-          <p>life is like a fetilizer we need to come back to place we belong a sand.</p>
-        </article>
-      </section>
+        </div>
+        <div class="progress">
+            <div class="determinate" style="width: 70%"></div>
+        </div>
+        <div class="progress">
+            <div class="determinate" style="width: 70%"></div>
+        </div>
+        <div class="right" style="background-color:#ddd;">
+          <h2>Page Content</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea in fugit dolores consequuntur minima iste commodi nam iure, sint atque, nemo tempore dolor laboriosam! Aperiam recusandae sint voluptatem eligendi!</p>
+         
+        </div>
+        </div>
+        <br>
+        <br>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">Patrick Claveria</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium veniam atque facere hic facilis explicabo voluptatem nam sint repellat. Architecto nisi officia molestiae ratione exercitationem possimus dicta libero non perferendis.</p>
+          
+        </div>
+      </div>
       
-      <footer>
-        <p>&copy;Don't Judge a person Ability because in this world only God Can Judge!</p>
-      </footer>
+      
+    
+              
+
+
+
+
+
+      <script src="js/index.js"></script>
 </body>
 </html>
